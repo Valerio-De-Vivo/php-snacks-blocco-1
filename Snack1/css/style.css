@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(7, 7, 72);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+}
+
+.matches{
+    background-color: #fff;
+    padding: 50px;
+    color: green;
+    width: 30%;
+}
+
+.matches span {
+    font-size: .5em;
+    color: rgb(7, 7, 72);
+}
+
+.squadre, .punti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squadre h2{
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.punti h2 {
+    margin: 0 30px;
+    font-size: 2em;
+}
+
+
